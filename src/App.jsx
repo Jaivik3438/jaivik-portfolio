@@ -9,7 +9,7 @@ export const AppContext = createContext();
 
 function App() {
 	const savedTheme = localStorage.getItem("theme");
-    const [theme, setTheme] = useState(savedTheme || "dark");
+    const [theme, setTheme] = useState(savedTheme || "light");
 
 	useEffect(() => {
         document.documentElement.classList.toggle("dark", theme === "dark");
@@ -25,7 +25,7 @@ function App() {
 		<AppContext.Provider value={{ theme, switchTheme }}>
 			<BrowserRouter>
 				<Routes>
-					<Route path="/portfolio" element={<Homepage />} />
+					<Route path="/jaivik-portfolio" element={<Homepage />} />
 					<Route path="/" element={<Homepage />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
