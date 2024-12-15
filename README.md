@@ -18,7 +18,7 @@
     ```
 2. **Change into the project directory** 📂
     ```bash
-    cd portfolio
+    cd jaivik-portfolio
     ```
 3. **Install dependencies** 🧩
     ```bash
