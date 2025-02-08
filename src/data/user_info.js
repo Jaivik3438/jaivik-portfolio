@@ -5,7 +5,8 @@ const info = {
         description: "I am a dedicated software engineer with expertise in full-stack development, driven by a passion for solving complex challenges. I focus on delivering high-quality, efficient solutions while continuously enhancing my skills. With extensive experience in diverse programming languages, frameworks, and cloud technologies, I thrive in fast-paced, agile environments where innovation and collaboration are key.",
         role: "Full-Stack Developer",
         photo: "pp1.png",
-        email: "jaivik.tailor@dal.ca",
+        emailprimary: "jaivik.tailor@dal.ca",
+        emailsecondary: "jaivik.tailor2804@gmail.com",
     },
 
     // ============ SOCIAL LINKS ============
@@ -87,7 +88,7 @@ const info = {
             position: "IT Developer/Analyst",
             company: "Canada Revenue Agency",
             duration: "Sep 2023 - Current",
-            image: "https://www.krp.ca/wp-content/uploads/2024/02/CRA-Banner.jpg",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Canada_Revenue_Agency_logo.svg/2560px-Canada_Revenue_Agency_logo.svg.png",
             descriptions: [
                 "Crafting a robust web app with Angular frontend, Java backend, and integrated multiple APIs for seamless data transfer.",
                 "Utilizing Agile methodologies & Jira for efficient project deliveries, including sprint planning and task allocation.",
@@ -153,7 +154,7 @@ const info = {
     // ============ CONTACT ============
     contact: {
         title: "Let's Get in Touch: Ways to Connect with Me",
-        description: "Thank you for visiting my website! I truly value your feedback, questions, and suggestions. If you’d like to reach out, feel free to email me directly at jaivik.tailor@dal.ca. I strive to respond to all messages within 24 hours, though response times may vary during busy periods. You can also connect with me on social media through the links below. I look forward to hearing from you!",
+        description: "Thank you for visiting my website! I truly value your feedback, questions, and suggestions. If you’d like to reach out, feel free to email me directly at jaivik.tailor@dal.ca. or jaivik.tailor2804@gmail.com I strive to respond to all messages within 24 hours, though response times may vary during busy periods. You can also connect with me on social media through the links below. I look forward to hearing from you!",
     },
 
     // ============ FOOTER ============

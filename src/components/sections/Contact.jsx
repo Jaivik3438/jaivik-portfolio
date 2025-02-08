@@ -44,11 +44,19 @@ function Contact() {
 
       {/* =========== EMAIL =========== */}
       <a
-        href={`mailto:${user_info.main.email}`}
+        href={`mailto:${user_info.main.emailprimary}`}
         className="flex mt-6 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 gap-4 hover:text-zinc-700 transition-all duration-30"
       >
         <MdEmail className="self-center text-lg text-red-800 dark:text-red-500" />
-        <span>{user_info.main.email}</span>
+        <span>{user_info.main.emailprimary}</span>
+      </a>
+
+      <a
+        href={`mailto:${user_info.main.emailsecondary}`}
+        className="flex mt-6 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 gap-4 hover:text-zinc-700 transition-all duration-30"
+      >
+        <MdEmail className="self-center text-lg text-red-800 dark:text-red-500" />
+        <span>{user_info.main.emailsecondary}</span>
       </a>
     </section>
   );
