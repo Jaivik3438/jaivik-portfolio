@@ -70,7 +70,7 @@ const info = {
     education: [
         {
             school: "Dalhosuie University",
-            degree: "Master in Applied Computer Science | GPA: 3.83/4.3",
+            degree: "Master in Applied Computer Science | GPA: 3.57/4.0",
             duration: "2022 - 2023",
             image: "https://images.squarespace-cdn.com/content/v1/5490a87ce4b01fef2753a84e/1727208126839-T3Z8R9FWNJ0FHNRYDUUF/Screenshot+2024-09-24+at+5.01.29+PM.png"
         },
@@ -85,17 +85,29 @@ const info = {
     // ============ EXPERIENCE ============
     experience: [
         {
+            position: "Software Engineer",
+            company: "Enghouse System Limited",
+            duration: "May 2025 - Current",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxMrE0AoqI4fXeYesJTLlXCRgqWib37gAjg&s",
+            descriptions: [
+                "Analyzing legacy Java backend code to identify key performance bottlenecks and guide future optimization efforts.",
+                "Debugging and enhancing React/Redux components to resolve UI issues and improve rendering performance in ongoing feature development.",
+                "Contributing to a multi-module Maven project by reviewing dependencies and refining build configurations for efficiency.",
+                "Collaborating with cross-functional teams to document product architecture and support smoother knowledge transfer.    ",
+                "Resolving client-reported issues by managing 3+ Git feature branches, ensuring clean merges, minimal conflicts, and on-time delivery.",
+            ]
+        },
+        {
             position: "IT Developer/Analyst",
             company: "Canada Revenue Agency",
-            duration: "Sep 2023 - Current",
+            duration: "Sep 2023 - Mar 2025",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Canada_Revenue_Agency_logo.svg/2560px-Canada_Revenue_Agency_logo.svg.png",
             descriptions: [
-                "Crafting a robust web app with Angular frontend, Java backend, and integrated multiple APIs for seamless data transfer.",
-                "Utilizing Agile methodologies & Jira for efficient project deliveries, including sprint planning and task allocation.",
-                "Managing version control with Git for collaborative code development on the web app's codebase.",
-                "Integrating Angular and Java systems for improved user experience and system reliability that enhanced 50% of performance.",
-                "Aligning project goals with client requirements, ensuring on-time delivery and boosting project effectiveness by 60%.",
-                "delivering cost-effective & efficient public facing applications for Canadian residers",
+                "Developed a scalable web app using Angular and Java, integrating multiple APIs to improve data flow and system performance.",
+                "Planned and executed Agile sprints using Jira, ensuring on-time delivery of features aligned with client goals.",
+                "Maintained collaborative development through Git, enabling smooth code integration and reducing merge conflicts.",
+                "Integrated Angular and Java systems to enhance reliability and user experience, achieving a 50% performance boost.",
+                "Delivered cost-effective public-facing applications for Canadian residents, increasing project impact and client satisfaction by 60%.",
             ]
         },
         {
@@ -115,7 +127,7 @@ const info = {
         {
             position: "Junior Software Developer",
             company: "KiwiMiles India",
-            duration: "Sept 2020 - Feb 2021",
+            duration: "Sep 2020 - Feb 2021",
             image: "https://i.ibb.co/rfRpbZs/kiwimiles.jpg",
             descriptions: [
                 "Conducted client consultation & requirement validation for an E-Commerce Store, ensuring comprehension of client objectives.",
